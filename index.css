@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+#bodydiv{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("./images/technology_png.png");
+    height: 800px;
+}
+#logo{
+    font-family: Inter;
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}
+.v1{
+    border-left: 2px solid white;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    
+}
+#nav_text{
+    font-family: Poppins;
+    color: white;
+    font-size: 14px;
+    margin-left: 15px;
+}
+#nav_button{
+    border-radius: 20px;
+    border: 1px solid white;
+    height: 35px;
+    width: 150px;
+    font-family: Poppins;
+    font-size: 14px;
+    margin-left: 15px;
+}
+#lbl_test{
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+}
