@@ -7,8 +7,9 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     background-image: url("./images/technology_png.png");
-    height: 1800px;
+    height: 1825px;
     background-size: cover;
+    border-style: none !important;
 }
 #logo{
     font-family: Inter;
@@ -142,10 +143,96 @@ body{
     text-align: center;
 }
 #div_quantm{
-    width: 1100px;
-    height: 250px;
+    width: 1120px;
+    height: 280px;
     background-image: linear-gradient(to right,rgba(32,77,138,0.28), rgba(255, 255, 255, 0.1));
-    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 10px;
+    margin-top: 30px;
 }
- 
+#lbl_quantm{
+    color: white;
+    font-family: Poppins;
+    margin-left: 15px;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#p_quantm{
+    color: white;
+    font-family: Poppins;
+    font-size: 11px;
+    margin-left: 15px;
+}
+#img_quantm{
+    height: 200px;
+    width: 350px;
+}
+#div_leap{
+    width: 800px;
+    height: 130px;
+    background-image: linear-gradient(to right,rgba(32,77,138,0.28), rgba(255, 255, 255, 0.1));
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#p_quantm1{
+    color: white;
+    font-family: Poppins;
+    font-size: 11px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+#div_step{
+    height: 240px;
+    /* background-image: radial-gradient(rgba(32,77,138,0.1), #006BCC); */
+    background-image: url("./images/step.png");
+}
+#img_elip{
+    height: 200px;
+    margin-top: 20px;
+    width: 280px;
+}
+#lbl_step{
+    color: white;
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-left: -30px;
+    padding-right: 50px;
+}
+#p_step{
+    color: white;
+    font-size: 11px;
+    font-family: Poppins;
+    margin-top: 40px;
+}
+#btn_step{
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 250px;
+    height: 30px;
+    font-size: 11px;
+    font-family: Poppins;
+    margin-top: 10px;
+}
+#div_footer{
+    height: 200px;
+    background: rgba(16, 18, 21, 1);
+}
+#div_copyright{
+    background: rgba(36, 52, 75, 1);
+    height: 25px;
+    text-align: center;
+}
+#lbl_copyright{
+    color: white;
+    font-family: Poppins;
+    font-size: 10px;
+    text-align: center;
+}
