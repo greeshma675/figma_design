@@ -9,13 +9,17 @@ body{
     background-image: url("./images/technology_png.png");
     height: 1825px;
     background-size: cover;
-    border-style: none !important;
+    margin: 0px;
+    background-color:#006BCC;
 }
 #logo{
-    font-family: Inter;
+    font-family: Poppins;
     font-weight: bolder;
     font-size: 40px;
-    color: white;
+    background: linear-gradient(rgba(255,255,255,1), rgba(255,255,255,0));
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .v1{
     border-left: 2px solid white;
@@ -99,7 +103,7 @@ body{
         padding-top: 30%;
         padding-right: 50px;
 }
-#img_power{
+#imge_power{
     padding-left: 50px;
     margin-top: 20px;
    
@@ -112,10 +116,11 @@ body{
     border-radius: 15px;
     
 }
-#icon_power{
+#img_power{
     margin-left: 15px;
     margin-top:20px ;
-    color: white;
+    width: 25px;
+    height: 25px;
 }
 #card_title{
     color: white;
@@ -126,6 +131,17 @@ body{
     color: white;
     font-family: Poppins;
     font-size: 11px;
+}
+#img_test_help{
+    width: 28px;
+    height: 28px;
+    margin-left: 15px;
+}
+#img_test_power{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+
 }
 #img_help{
     height: 500px;
@@ -222,8 +238,39 @@ body{
     margin-top: 10px;
 }
 #div_footer{
-    height: 200px;
+    height: 220px;
     background: rgba(16, 18, 21, 1);
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 30px;
+}
+
+#lbl_footer{
+    font-size: 11px;
+    color: white;
+    font-family: Poppins;
+}
+#img_footer{
+    width:20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top:15px ;
+    color: white;
+}
+#h5_foot{
+    font-size: 13px;
+    color: white;
+    font-family: Poppins;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+#div_icons{
+    text-align: center;
+    margin-top: 20px;
+}
+#img_icon{
+    margin-left: 20px;
 }
 #div_copyright{
     background: rgba(36, 52, 75, 1);
@@ -236,3 +283,13 @@ body{
     font-size: 10px;
     text-align: center;
 }
+/* #div_content{
+    background-color: white;
+} */
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+  }
